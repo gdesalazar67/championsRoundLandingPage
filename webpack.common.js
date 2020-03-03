@@ -30,16 +30,16 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                // use: [{
-                //     loader: 'url-loader',
-                //     options: {
-                //         limit: 8000, // Convert images < 8kb to base64 strings
-                //         name: 'images/[hash]-[name].[ext]'
-                //     }
-                // }]
-                use: [
-                    'file-loader'
-                ]
+                use: [{
+                    loader: 'url-loader',
+                    options: {
+                        // limit: 8000, // Convert images < 8kb to base64 strings
+                        name: 'images/[hash]-[name].[ext]'
+                    }
+                }]
+                // use: [
+                //     'file-loader'
+                // ]
             }
         ]
     },
