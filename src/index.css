@@ -26,7 +26,8 @@ time, mark, audio, video {
 
 body {
     background-color: #003497;
-    background-image: url('images/light_blue.jpg');
+    /* background-image: url('images/light_blue.jpg'); */
+    background-image: url('/src/images/light_blue.jpg');
    
 }
 main{
