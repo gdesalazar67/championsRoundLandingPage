@@ -27,7 +27,8 @@ time, mark, audio, video {
 
 body {
     background-color: #003497;
-    background-image: url('./../src/images/Jackson_Pollock.png');
+    /* background-image: url('images/Jackson_Pollock.png'); */
+    background-image: url('images/Jackson_Pollock.png');
    
 }
 main{
