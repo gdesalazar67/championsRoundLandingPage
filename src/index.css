@@ -87,3 +87,13 @@ img {
     width: 260px;
     margin-top: 135px;
 }
+
+#mc_embed_signup {
+    background: transparent;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+.mc-field-group.input-group {
+    display: none;
+}
