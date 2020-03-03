@@ -45,27 +45,29 @@ main{
 }
 
 h1{
-    font-size: 36px;
+    font-size: 61px;
     margin-top: 83px;
     letter-spacing: 1.5px;
     line-height: 1;
     text-shadow: 0px 1px 3px #000000b8;
+    /* font: normal normal normal 61px/1.4em wfont_f75a81_8cebc00c3256486db44634630e2e; */
 }
 .hspan{
     padding-bottom: 6px;
     border-bottom: 4px solid #355be1;
-
+    /* font: normal normal normal 61px/1.4em wfont_f75a81_8cebc00c3256486db44634630e2e; */
 }
 
 p{
     margin-top: 55px;
     width: 475px;
-    font-size: 16px;
-    line-height: 1.5;
     text-shadow: 0px 1px 3px #000000b8;
+    font: normal normal normal 22px/1.4em brandon-grot-w01-light,sans-serif;
 }
 p span{
+    font: normal normal normal 22px/1.4em brandon-grot-w01-light,sans-serif;
     color: rgb(248, 59, 113);
+    
 }
 
 .esport.img.container{
@@ -92,8 +94,65 @@ img {
     background: transparent;
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition:400ms ease;
+    -moz-transition:400ms ease;
+    -o-transition:400ms ease;
+    transition:400ms ease;
 }
 
 .mc-field-group.input-group {
     display: none;
+}
+
+.button-container {
+    margin-top: 30px;
+    
+}
+.button-container button{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 0 none;
+    border-radius: 4px;
+    transition: all 0.23s ease-in-out 0s;
+    color: rgb(248, 59, 113);
+    cursor: pointer;
+    display: inline-block;
+    font: normal normal bold 16px/1.4em brandon-grot-w01-light,sans-serif;
+}
+
+.button-container button:hover{
+    background-color: rgb(248, 59, 113);
+    color: #ffffff;
+}
+
+#mc_embed_signup .button {
+      /* transition: all 0.23s ease-in-out 0s; */
+    color: rgb(248, 59, 113);
+    background-color: #ffffff;
+    /* cursor: pointer; */
+    /* display: inline-block; */
+    font: normal normal bold 16px/1.4em brandon-grot-w01-light,sans-serif;
+}
+
+#mc_embed_signup .button:hover{
+    background-color: rgb(248, 59, 113);
+    color: #ffffff;
+}
+
+#mc_embed_signup h2 {
+    font: normal normal normal 16px/1.4em brandon-grot-w01-light,sans-serif;
+}
+
+#mc_embed_signup .mc-field-group label{
+  font: normal normal bold 16px/1.4em brandon-grot-w01-light,sans-serif;
+}
+
+mc_embed_signup .indicates-required {
+   font: normal normal bold 11px/1.4em brandon-grot-w01-light,sans-serif; 
 }
