@@ -18,7 +18,8 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: edmunds;
     box-sizing: border-box;
 }
 
@@ -26,8 +27,7 @@ time, mark, audio, video {
 
 body {
     background-color: #003497;
-    /* background-image: url('images/light_blue.jpg'); */
-    background-image: url('/src/images/light_blue.jpg');
+    background-image: url('./../src/images/Jackson_Pollock.png');
    
 }
 main{
