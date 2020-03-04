@@ -1,16 +1,13 @@
 import './index.css'
-// import './mailchimp'
 
-console.log("hello")
 const signup = document.getElementById("mc_embed_signup");
+const thanks = document.getElementById("thanks");
 
 document.getElementById("yes").addEventListener("click", ()=>{
-    // signup.style.opacity = "1";
-    // signup.style.visibility = "visible"
+    thanks.style.display = "block";
     signup.style.height = "100%";
 });
 document.getElementById("no").addEventListener("click", ()=>{
-    // signup.style.opacity = "1";
+    thanks.style.display = "block";
     signup.style.height = "0";
-    // signup.style.visibility = "hidden"
 });
