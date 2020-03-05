@@ -10,7 +10,6 @@ document.getElementById("yes").addEventListener("click", ()=>{
     thanks.style.marginBottom = "0px"
     signup.style.height = "100%";
     signup.style.marginBottom = "25px";
-    hello()
 });
 document.getElementById("no").addEventListener("click", ()=>{
     thanks.style.height = "30px";
@@ -20,6 +19,3 @@ document.getElementById("no").addEventListener("click", ()=>{
     signup.style.marginBottom = "0px";
 });
 
- const hello = ()=> {
-    console.log("hello fool")
-}
