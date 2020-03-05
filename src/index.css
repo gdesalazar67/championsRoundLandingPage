@@ -29,7 +29,7 @@ html {
 body {
     background-color: #003497;
     background-image: url('images/Jackson_Pollock.png');
-   
+    overflow: hidden;
 }
 main{
     width: fit-content;
