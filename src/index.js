@@ -1,5 +1,7 @@
 import './index.css'
 
+document.body.scrollTop = document.documentElement.scrollTop = 0;
+
 const signup = document.getElementById("mc_embed_signup");
 const thanks = document.getElementById("thanks");
 const yes= document.getElementById("yes");
