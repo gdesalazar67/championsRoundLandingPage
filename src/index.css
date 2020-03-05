@@ -257,6 +257,7 @@ img {
     }
 
     #mc_embed_signup  {
+        box-sizing: border-box;
         padding-left: 15px;
         padding-right: 15px;
     }
